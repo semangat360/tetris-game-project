@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    background-color: #333;
+    padding: 0px;
+    border-radius: 0px;
+    /*text-align: center;*/
+}
+
+canvas {
+    border: 0px solid #666;
+    display: block;
+    margin: 0 auto;
+    background-color: #111;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#score {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 40px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+
+/* Styling dasar untuk tombol kontrol */
+
+
+/* Styling dasar untuk tombol kontrol */
+
+
+/* CSS untuk tombol-tombol kontrol pada tampilan mobile */
+
+
+/* CSS untuk tombol-tombol kontrol Tetris */
+
+
+/* CSS untuk tombol-tombol kontrol Tetris */
+
+.touch-control {
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS tambahan untuk tampilan mobile */
+
+@media (max-width: 480px) {
+    .touch-control {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        margin: 2px;
+    }
+}
+
+
+/* Styling tambahan untuk masing-masing tombol */
+
+#left-button {
+    background-color: #ff5733;
+}
+
+#right-button {
+    background-color: #33ff57;
+}
+
+#rotate-button {
+    background-color: #5733ff;
+}
+
+#down-button {
+    background-color: #ff33f3;
+}
+
+
+/* Media queries untuk perangkat berukuran kecil (misalnya, perangkat Android) */
+
+@media screen and (max-width: 768px) {
+    .game-container {
+        text-align: center;
+    }
+    canvas#tetris {
+        width: 100%;
+        max-width: 300px;
+        /* Atur lebar maksimum sesuai kebutuhan Anda */
+        height: auto;
+    }
+    #score {
+        font-size: 16px;
+        /* Atur ukuran font sesuai kebutuhan Anda */
+    }
+    /* Atur gaya tombol kontrol sesuai dengan kebutuhan Anda */
+    .touch-control {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+}

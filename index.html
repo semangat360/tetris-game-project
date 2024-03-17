@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Rujukan ke file CSS Anda -->
+</head>
+
+<body>
+    <audio id="rotate-sound" src="sounds/rotate.mp3"></audio>
+    <audio id="score-sound" src="sounds/score.mp3"></audio>
+
+    <div class="game-container">
+        <canvas id="tetris" width="300" height="600"></canvas>
+        <div id="score">Score: 0</div>
+        <button id="start-button">Start Game</button>
+        <button id="stop-button">Stop Game</button>
+        <!-- <button id="save-score-button">Simpan Skor</button>
+        <button id="view-score-history-button">Lihat Riwayat Skor</button> -->
+
+        <button id="left-button" class="touch-control">Left</button>
+        <button id="rotate-button" class="touch-control">Rotate</button>
+        <button id="right-button" class="touch-control">Right</button>
+        <button id="down-button" class="touch-control">Down</button>
+
+
+
+    </div>
+    <script src="js/tetris.js"></script>
+    <!-- Rujukan ke file JavaScript Anda -->
+</body>
+
+</html>
